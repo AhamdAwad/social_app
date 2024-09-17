@@ -36,12 +36,17 @@ class SocialRegisterCubit extends Cubit< SocialRegisterState> {
   //     print (error.toString());
   //     emit(shoperrorRegisterstate());
   //   });}
+  //comit
+
 
   IconData suffix = Icons.visibility_outlined;
   bool isPasswordShown = true;
 //
   //hello from ahmad 0934961515
-  // updation ahmad
+  // updation ahmad sssssssssssss
+  //adonis
+  // ddds mm mm mm mm mm mm mm mm mm mm
+  // this is the test
   void changePasswordVisibilty() {
     isPasswordShown = !isPasswordShown;
     suffix = isPasswordShown ? Icons.visibility_outlined : Icons.visibility_off;
